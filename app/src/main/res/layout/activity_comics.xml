@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".view.activity.ComicsListActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:background="@drawable/background_home"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:titleEnabled="false">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="10dp"
+                android:fitsSystemWindows="true"
+                android:padding="@dimen/spacing_medium"
+                android:src="@drawable/marvel_logo"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.19" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.6">
+
+                <com.jcolom.wallapoptest.view.widget.CustomFontTextView
+                    style="@style/AppTheme.TextViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/hulk_title"
+                    android:textColor="@color/white"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_comics" />
+
+
+</android.support.design.widget.CoordinatorLayout>

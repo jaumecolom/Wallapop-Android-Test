@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Wallatest - JColom</string>
+
+  <string name="text_best_result">COMICS DE HULK</string>
+  <string name="hulk_title">HULK COMICS</string>
+
+  <string name="text_image_profile_content">Content profile</string>
+  <string name="text_image_history_content">Content history</string>
+</resources>

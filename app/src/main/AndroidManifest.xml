@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jcolom.wallapoptest">
+
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <application
+      android:name="com.jcolom.wallapoptest.MarbelApplication"
+      android:allowBackup="true"
+      android:icon="@drawable/hulk_logo"
+      android:label="@string/app_name"
+      android:largeHeap="true"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+    <activity
+        android:name="com.jcolom.wallapoptest.view.activity.ComicsListActivity"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+
+    <activity
+        android:name="com.jcolom.wallapoptest.view.activity.ComicDetailActivity"
+        android:theme="@style/AppTheme.NoActionBar"/>
+  </application>
+
+</manifest>
