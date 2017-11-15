@@ -24,5 +24,7 @@ Developed By
 ------------
 
 * Jaume Colom Ferrer - <jaumecolomferrer@gmail.com>
+* Visit my Linkedin:  https://www.linkedin.com/in/jaumecolom/
 
 
+Thank you!
