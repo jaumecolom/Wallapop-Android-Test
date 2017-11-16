@@ -15,7 +15,4 @@ public interface MarbelService {
     @GET("/v1/public/characters/{characterId}/comics")
     Observable<ComicsResponse> getComicsList(@Path("characterId") String characterId, @Query(value = "apikey", encoded = true) String apiKey,
                                              @Query(value = "hash", encoded = true) String hash, @Query(value = "ts", encoded = true) String ts);
-
-    @GET("/mars-photos/api/v1/rovers/curiosity/photos")
-    Observable getComicImages(String comicId);
 }
