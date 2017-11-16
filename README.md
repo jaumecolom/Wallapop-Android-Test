@@ -1,8 +1,9 @@
 # Android Test for Candidates (Marvel API)
 
-Test realized using a Clean MVP architecture rules, that I use in many of my android applications.
+This is my resolution of the tech exercise for Android Developer in Wallapop.
+The project is based on Clean Architecture and MVP.
 
-Libraries used on the sample project
+Libraries used on the project
 ------------------------------------
 * [AppCompat, CardView, RecyclerView & DesignLibrary][2]
 * [RxJava & RxAndroid][3]
@@ -20,11 +21,12 @@ Libraries used on the sample project
 [8]: http://robolectric.org/
 [9]: http://hamcrest.org/
 
+![](./art/screenshot_munt.png)
+
 Developed By
 ------------
 
 * Jaume Colom Ferrer - <jaumecolomferrer@gmail.com>
-* Visit my Linkedin:  https://www.linkedin.com/in/jaumecolom/
 
+* [Linkedin](https://www.linkedin.com/in/jaumecolom/)
 
-Thank you!
